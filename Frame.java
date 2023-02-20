@@ -11,6 +11,7 @@ public class Frame extends JFrame {
 		this.frame = new JFrame("editor");
 		this.getFrame().setVisible(true);
 		this.getFrame().setSize(250,250);
+		this.getFrame().setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 
 }
