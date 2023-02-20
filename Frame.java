@@ -10,7 +10,7 @@ public class Frame extends JFrame {
 	public Frame(){
 		this.frame = new JFrame("editor");
 		this.getFrame().setVisible(true);
-		this.getFrame().setSize(250,250);
+		this.getFrame().setExtendedState(JFrame.MAXIMIZED_BOTH);
 		this.getFrame().setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 
